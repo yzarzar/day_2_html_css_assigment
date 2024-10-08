@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid;
+  padding: 20px;
+}
+
+th {
+    background-color: gainsboro;
+}
+
+.color {
+    background-color: gainsboro;
+}
+
+.center-text {
+    text-align: center;
+    vertical-align: top;
+}
+
+table {
+    width: 100%;
+}
+
+table td{
+    width: 20%;
+}

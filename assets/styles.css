@@ -1,0 +1,31 @@
+
+.unordered-list ul {
+    list-style-image: url('/images/noimg.png');
+}
+
+.order-list ul{
+    list-style-type: lower-alpha;
+}
+
+.custom-markers li::before {
+    content: '➡';
+    margin: 20px;
+    color: blue;
+}
+
+.custom-markers ul {
+    list-style-type: none;
+}
+
+.horixontal-list ul {
+    list-style-type: none;
+}
+
+.discription-list dl {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.discription-list dd {
+    font-size: 15px;
+}

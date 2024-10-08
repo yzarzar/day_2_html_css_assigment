@@ -1,0 +1,88 @@
+/* Section 1 CSS */
+.section-1 {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-1-nav {
+  display: flex;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-1 ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.section-1 a {
+  color: white;
+}
+
+.section-1-table,
+.section-1-table th,
+.section-1-table td {
+  border-collapse: collapse;
+  border-bottom: 2px solid #d6eeee;
+  padding: 20px;
+}
+
+.section-1-table {
+  width: 100%;
+}
+
+.section-1-table th {
+  text-transform: uppercase;
+  background-color: green;
+  color: white;
+}
+
+.section-1-table tr:nth-child(even) {
+  background-color: #d6eeee;
+}
+
+/* Section 2 CSS */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-2-table {
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.section-2-table,
+.section-2-table th,
+.section-2-table td {
+  border: 1px solid black;
+}
+
+.section-2-table td {
+  height: 70px;
+}
+
+.buttd {
+    vertical-align: top;
+}
+
+.rakesh {
+    vertical-align: bottom;
+}
+
+.cse {
+    vertical-align: bottom;
+}
+
+.ec {
+    vertical-align: top;
+}
